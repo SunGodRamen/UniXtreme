@@ -1,0 +1,20 @@
+[package]
+name = "unixtreme"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+hidapi = "2.2.0"
+
+[[bin]]
+name = "key_monitor"
+path = "src/main.rs"
+
+[[bin]]
+name = "unix_socket"
+path = "src/unix_socket.rs"
+
+[[bin]]
+name = "hid_device"
+path = "src/hid_device.rs"
+
