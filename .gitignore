@@ -1,0 +1,8 @@
+# Rust/Cargo
+*.rs.bk
+/src/*/target/
+/src/*/Cargo.lock
+
+# Visual Studio Code
+.vscode/
+
